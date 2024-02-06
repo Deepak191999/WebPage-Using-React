@@ -24,8 +24,8 @@ function Github() {
   };
 
   return (
-    <div className="text-center m-4  bg-gray-600 flex flex-wrap text-white  p-4 justify-center md:justify-between items-center">
-      <div className=" sm:text-1xl md:text-2xl lg:text-3xl  xl:text-3xl ">Github Link={'> '}
+    <div className="text-center m-4   bg-gray-100  flex flex-wrap text-gray-500  p-4 justify-center md:justify-between items-center">
+      <div className=" sm:text-1xl md:text-2xl lg:text-3xl  xl:text-3xl ">Github Link{': '}
       <a  className="hover:text-blue-400" href={data.html_url} onClick={openGithubProfile}>
         {data.html_url}
       </a> 
